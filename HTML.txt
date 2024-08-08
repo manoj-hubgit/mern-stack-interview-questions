@@ -39,38 +39,38 @@
     Examples include <header>, <footer>, <article>, and <section>.
 
 10) What is the purpose of the <meta> tag?
-    The <meta> tag provides metadata about the HTML document, 
-    such as character set, author, description, and keywords.
+     The <meta> tag provides metadata about the HTML document, 
+     such as character set, author, description, and keywords.
 
 11) How do you link an external CSS file to an HTML document?
-    An external CSS file is linked using the <link> tag inside the <head> section:
-    <link rel="stylesheet" href="styles.css">
+     An external CSS file is linked using the <link> tag inside the <head> section:
+     <link rel="stylesheet" href="styles.css">
 
 12) How do you embed a video in an HTML document?
-    A video is embedded using the <video> tag, with src attribute specifying the video file, 
-    and optional controls attribute to display video controls:
-    <video src="video.mp4" controls></video>
+     A video is embedded using the <video> tag, with src attribute specifying the video file, 
+     and optional controls attribute to display video controls:
+     <video src="video.mp4" controls></video>
 
 13)  What is the purpose of the <br> and <hr> tag?
-    The <br> tag inserts a line break within text.
-    The <hr> tag creates a horizontal rule, often used to separate sections of content.
+     The <br> tag inserts a line break within text.
+     The <hr> tag creates a horizontal rule, often used to separate sections of content.
 
 14) What is the difference between the <script> and <noscript> tags?
-    The <script> tag is used to embed or reference JavaScript code. 
-    The <noscript> tag provides content for users who have disabled JavaScript in their browser.
+     The <script> tag is used to embed or reference JavaScript code. 
+     The <noscript> tag provides content for users who have disabled JavaScript in their browser.
 
 15) What is the purpose of the <title> tag?
-    The <title> tag defines the title of the HTML document, which appears in the browser's title bar or tab.
+     The <title> tag defines the title of the HTML document, which appears in the browser's title bar or tab.
 
 16) Describe the different ways to include CSS in an HTML document
-•	Inline - by using the style attribute inside HTML elements.
-•	Internal - by using a <style> element in the <head> section.
-•	External - by using a <link> element to link to an external CSS file.
+•	 Inline - by using the style attribute inside HTML elements.
+•	 Internal - by using a <style> element in the <head> section.
+•	 External - by using a <link> element to link to an external CSS file.
 
 17) What is the difference between block-level and inline elements?
-•   A block-level element always starts on a new line, and the browsers automatically add some space 
-    (a margin) before and after the element.
-•   A block-level element always takes up the full width available.
-•   An inline element does not start on a new line.
-•   An inline element only takes up as much width as necessary.
+•    A block-level element always starts on a new line, and the browsers automatically add some space 
+     (a margin) before and after the element.
+•    A block-level element always takes up the full width available.
+•    An inline element does not start on a new line.
+•    An inline element only takes up as much width as necessary.
 

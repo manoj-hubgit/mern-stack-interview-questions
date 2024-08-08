@@ -1,0 +1,49 @@
+                                         CSS
+1) What is CSS?
+•   CSS stands for Cascading Style Sheets
+•   CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+•   CSS saves a lot of work. It can control the layout of multiple web pages all at once
+•   External stylesheets are stored in CSS files.
+
+2) What are the different ways to include css styles in an html document?
+    External CSS.  <link rel="stylesheet" href="mystyle.css">
+    Internal CSS.  <style>
+                    body {
+                    background-color: linen;
+                         }
+                   </style>
+    Inline CSS.    <p style="color:red;">This is a paragraph.</p>
+
+3) What is the box model in CSS?
+    The CSS box model is essentially a box that wraps around every HTML element. 
+    It consists of: content, padding, borders and margins.   
+    • Content - The content of the box, where text and images appear
+    • Padding - Clears an area around the content. The padding is transparent
+    • Border - A border that goes around the padding and content
+    • Margin - Clears an area outside the border. The margin is transparent  
+
+4) Position property and it's type
+    The position property specifies the type of positioning method used for an element 
+    (static, relative, absolute, fixed, or sticky).
+    • Static:
+         Default value. Elements render in order, as they appear in the document flow
+         This is the default value.
+
+    • Relative:
+         Same as static. But lets you add top, right, bottom, left.
+         Makes it move relative to it's normal position
+         
+    • Absolute:
+         Removes from the flow and positions absolute wrt to the parent. 
+         Parent has to be relative or absolute for top, right, bottom, left to work. 
+         Else it considers the main html element as the  parent .
+
+    • Fixed:
+         An element with position: fixed; is positioned relative to the viewport,
+         which means it always stays in the same place even if the page is scrolled.
+
+    • Sticky:
+         A sticky element toggles between relative and fixed, depending on the scroll position.
+         It is positioned relative until a given offset position is met in the 
+         viewport - then it "sticks" in place (like position:fixed).
+ 
