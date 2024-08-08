@@ -1,0 +1,76 @@
+                                            HTML
+1) What is HTML?
+    HTML stands for Hyper Text Markup Language. 
+    It is the standard language used to create and design web pages. 
+    It provides the structure for web content, which can include text, images, links, and other multimedia.
+
+2) What are HTML tags?
+    HTML tags are the building blocks of HTML. 
+    They define elements on a webpage and are enclosed in angle brackets, 
+    such as <p> for paragraphs and <a> for links.
+
+3) What are HTML attributes?
+    Attributes provide additional information about HTML elements. 
+    They are included inside the opening tag and usually come in name/value pairs,
+    such as href="https://www.onlineinterviewquestions.com" in an anchor tag.
+
+4) What is the difference between <div> and <span>?
+    <div> is a block-level element used to group larger sections of content,
+    while <span> is an inline element used to group smaller parts of text within a block.
+
+5) What is an HTML form?
+    An HTML form is used to collect user input. 
+    It is created using the <form> tag and can contain various input elements like text fields, 
+    checkboxes, radio buttons, and submit buttons.
+
+6) What is the difference between <strong> and <b>?
+    Both <strong> and <b> make text bold, but <strong> indicates that the text is important, 
+    whereas <b> does not convey any semantic meaning.
+
+7) What is the purpose of the <head> tag?
+    The <head> tag contains meta-information about the HTML document, 
+    such as the title, links to stylesheets, and meta tags for SEO.
+
+8) How do you create a comment in HTML?
+    Comments are created using the <!-- and --> syntax, like this: <!-- This is a comment -->
+
+9) What is a semantic HTML element?
+    Semantic HTML elements clearly describe their meaning in a human- and machine-readable way.
+    Examples include <header>, <footer>, <article>, and <section>.
+
+10) What is the purpose of the <meta> tag?
+    The <meta> tag provides metadata about the HTML document, 
+    such as character set, author, description, and keywords.
+
+11) How do you link an external CSS file to an HTML document?
+    An external CSS file is linked using the <link> tag inside the <head> section:
+    <link rel="stylesheet" href="styles.css">
+
+12) How do you embed a video in an HTML document?
+    A video is embedded using the <video> tag, with src attribute specifying the video file, 
+    and optional controls attribute to display video controls:
+    <video src="video.mp4" controls></video>
+
+13)  What is the purpose of the <br> and <hr> tag?
+    The <br> tag inserts a line break within text.
+    The <hr> tag creates a horizontal rule, often used to separate sections of content.
+
+14) What is the difference between the <script> and <noscript> tags?
+    The <script> tag is used to embed or reference JavaScript code. 
+    The <noscript> tag provides content for users who have disabled JavaScript in their browser.
+
+15) What is the purpose of the <title> tag?
+    The <title> tag defines the title of the HTML document, which appears in the browser's title bar or tab.
+
+16) Describe the different ways to include CSS in an HTML document
+•	Inline - by using the style attribute inside HTML elements.
+•	Internal - by using a <style> element in the <head> section.
+•	External - by using a <link> element to link to an external CSS file.
+
+17) What is the difference between block-level and inline elements?
+•   A block-level element always starts on a new line, and the browsers automatically add some space 
+    (a margin) before and after the element.
+•   A block-level element always takes up the full width available.
+•   An inline element does not start on a new line.
+•   An inline element only takes up as much width as necessary.
+
