@@ -47,3 +47,71 @@
          It is positioned relative until a given offset position is met in the 
          viewport - then it "sticks" in place (like position:fixed).
  
+5) what is the purpose of the z-index property in css? 
+       z-index is the CSS property that controls the stacking order of overlapping elements on a page.
+       An element with a higher z-index value will appear in front of an element
+       with a lower z-index value.
+
+6) what is the difference between display none and visibility hidden in css?
+    "display: none" and "visibility: hidden" are two CSS properties used to control the visibility
+     of elements on a webpage. 
+    • "display: none" removes the element from the layout 
+    • "visibility: hidden" hides the element while preserving its position.       
+
+7) what is the difference between margin and padding?
+    • Margin is the space around an element. 
+    It is used to move an element up or down on a page as well as left or right. 
+    Margins are completely transparent and do not have any background color. 
+    They clear the area around the element, pushing adjacent elements away to create the desired gap. 
+    Each side of the element can have a different margin size, which you can change individually.
+
+    • Padding is the space between the element and the related content inside it. 
+    It determines how elements look and sit within a container. 
+    Padding affects the container’s background around the element and clears the area around the content.
+    Increasing the padding size either grows the element size or shrinks the content inside,
+    with the element size increasing by default.    
+
+8) what is pseudo class in css?
+    A CSS pseudo-class is a keyword added to a selector that specifies a special state 
+    of the selected element(s).
+    For example, 
+          the pseudo-class :hover
+
+9) what is the use of overflow property in css?
+    The overflow CSS shorthand property sets the desired behavior 
+    when content does not fit in the element's padding box (overflows) in the 
+    horizontal and/or vertical direction.           
+    • overflow: visible;
+    • overflow: hidden;
+    • overflow: clip;
+    • overflow: scroll;
+    • overflow: auto;
+
+10) what is the purpose of media queries in css?
+     Media queries allow you to apply CSS styles depending on a device's media type 
+     (such as print vs. screen) or other features or characteristics such as screen resolution 
+     or orientation, aspect ratio, browser viewport width or height, 
+     user preferences such as preferring reduced motion, data usage, or transparency.    
+
+11) What is the difference between margin:auto; and margin: 0 auto;?
+     margin:auto; center the content horizontally within its containing element 
+     margin: 0 auto; centers the content both horizontally and vertically within its containing element.
+
+12) what is the difference between rem em and px ?
+    • Rem (Root em): This unit is relative to the root element (usually the <html> tag) 
+    and is useful for creating responsive designs. 
+    One rem is equal to the font size of the root element. 
+    So if the font-size of the root element is set to 16px, then 1rem is equal to 16px.
+    
+    • Em: This unit is relative to the font size of the parent element 
+    and can be useful for creating scalable designs. 
+    
+    • Px (Pixel): This unit is an absolute unit of measurement and is not relative to anything else.
+    It is commonly used for fixed-size elements or elements that require exact measurements.
+
+13):nth-child() in CSS 
+    The :nth-child() CSS pseudo-class matches elements based on the indexes of the elements 
+    in the child list of their parents. In other words, the :nth-child() 
+    selector selects child elements according to their position among all the sibling elements 
+    within a parent element.
+
