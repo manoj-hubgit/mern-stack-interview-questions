@@ -110,8 +110,54 @@
     It is commonly used for fixed-size elements or elements that require exact measurements.
 
 13):nth-child() in CSS 
-    The :nth-child() CSS pseudo-class matches elements based on the indexes of the elements 
-    in the child list of their parents. In other words, the :nth-child() 
-    selector selects child elements according to their position among all the sibling elements 
-    within a parent element.
+     The :nth-child() CSS pseudo-class matches elements based on the indexes of the elements 
+     in the child list of their parents. In other words, the :nth-child() 
+     selector selects child elements according to their position among all the sibling elements 
+     within a parent element.
 
+14) What is flexbox ?
+     Flexbox is a CSS layout module that provides a more efficient way to lay out, align,
+     and distribute space among items in a container, even when their size is unknown or dynamic.
+     It is particularly useful for creating responsive designs.
+
+    Key Points:
+    • Flex Container: The parent element, where Flexbox is applied by setting display: flex or display: inline-flex. It controls the layout of its child elements, known as flex items.
+
+    Main Axis vs. Cross Axis:
+
+    • The main axis is the direction along which flex items are placed (can be horizontal or vertical).
+    • The cross axis is perpendicular to the main axis.
+
+    Core Properties:
+
+    • flex-direction: Determines the direction of the main axis (row, column, etc.).
+    • justify-content: Aligns items along the main axis (e.g., centered, spaced out).
+    • align-items: Aligns items along the cross axis (e.g., centered vertically).
+    • flex-wrap: Controls whether items should wrap onto multiple lines if there's not enough space.
+    • flex-grow, flex-shrink, and flex-basis: Allow items to grow, shrink, 
+    or take up specific space relative to their siblings.
+    • Practical Example:
+    • Imagine you have a navigation bar with several buttons that need to be evenly spaced, 
+    even if the screen size changes. With Flexbox,
+    you can easily distribute the buttons across the available space, align them vertically, 
+    and ensure they respond to different screen sizes.
+
+    Why It's Important:
+     Flexbox simplifies complex layouts that previously required floats, positioning, 
+     or other techniques. It’s essential for building modern, responsive web applications,
+     making it a critical tool in front-end development. 
+
+15) What is CSS Grid?
+     The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, 
+     making it easier to design web pages without having to use floats and positioning.
+
+16) what is the purpose of object fit property in css?
+     The CSS object-fit property is used to specify how an <img> or <video> should be resized 
+     to fit its container. 
+     This property tells the content to fill the container in a variety of ways; 
+     such as "preserve that aspect ratio" or "stretch up and take up as much space as possible". 
+     object-fit: fill;
+     object-fit: contain;
+     object-fit: cover;
+     object-fit: none;
+     object-fit: scale-down;
