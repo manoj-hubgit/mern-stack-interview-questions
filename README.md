@@ -24,6 +24,9 @@ Each file can be studied independently, based on your area of focus. The questio
 
 This repository is a personal project, but if you find any errors or have suggestions for improvement, feel free to open an issue or submit a pull request.
 
-Contact For any questions or suggestions, you can reach me at [manojannadurai2265@gmail.com](manojannadurai2265@gmail.com).
+## Contact
+
+For any questions or suggestions, you can reach me at [manojannadurai2265@gmail.com](mailto:manojannadurai2265@gmail.com).
+
 
 Happy coding!
