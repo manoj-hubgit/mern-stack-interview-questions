@@ -1,0 +1,88 @@
+1) What is JavaScript?
+    • JavaScript is a high-level, versatile programming language 
+    that is primarily used for creating interactive and dynamic content on websites. 
+    • It's one of the core technologies of the web, along with HTML and CSS.
+    • JavaScript enables developers to make web pages more dynamic and user-friendly by adding 
+    interactivity, such as form validation, animations, and complex user interfaces.
+
+2) What are JavaScript Data Types?
+    Undefined
+    Boolean
+    number
+    string
+    object
+
+3) Explain the difference between var, let, and const.
+    • var: Function-scoped and can be re-declared and updated. Variables declared with var are hoisted to the top of their scope.
+    • let: Block-scoped and can be updated but not re-declared within the same scope. It is not hoisted.
+    • const: Block-scoped and cannot be updated or re-declared. 
+    The value assigned to a const variable is immutable,
+    but the object it refers to can still be modified.
+
+4) What is hoisting in JavaScript?
+    Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope 
+    (function or global) before code execution. 
+    This means that variables and function declarations can be used before they are declared. 
+
+5) Explain the difference between == and ===.
+   • `==` : The loose equality operator that compares two values for equality 
+    after converting both values to a common type.
+   • `===`: The strict equality operator that compares two values for equality 
+    without converting their types. It returns true only if the values and types are the same.   
+
+6) What is the difference between null and undefined?
+   • null: An assignment value that represents "no value" or "no object." 
+     It is an intentional absence of any object value.
+   • undefined: A variable that has been declared but has not been assigned a value. 
+     It also represents the absence of value but is more about unintentional or unknown absence.
+
+7) What is a Function in JavaScript?
+    A function in JavaScript is a block of code designed to perform a particular task. 
+    Functions are reusable and can be called anywhere in the code to execute the code block. 
+    They can accept inputs (known as parameters), perform operations, and return outputs.
+
+8) Types of Functions in JavaScript
+    1. Named Functions
+                These are functions that have a name when they are defined. 
+                They are the most common type of functions.
+    
+    2. Anonymous Functions
+                These are functions that do not have a name and are often used as arguments 
+                to other functions or assigned to variables.
+
+    3. Arrow Functions
+                Arrow functions provide a more concise syntax for writing functions. 
+                They are always anonymous and have a different behavior for this compared to 
+                traditional functions.
+
+    4. Immediately Invoked Function Expressions (IIFE)
+                These are functions that are defined and immediately executed. 
+                They are often used to create a new scope.
+
+9) What is DOM ?
+    The Document Object Model (DOM) in JavaScript is a programming interface for web documents. 
+    It represents the structure of a web page in a tree-like format, 
+    where each node corresponds to an element, attribute, or piece of text. 
+    The DOM allows JavaScript to interact with and manipulate the content, structure, 
+    and styling of a web page dynamically.
+
+    Key Points about the DOM:
+    
+    • Tree Structure: The DOM represents a document as a tree of nodes, 
+    where each node is an object representing a part of the document 
+    (e.g., an element, an attribute, or a text node).
+    
+    • Manipulation: Through the DOM, JavaScript can modify the content, style, 
+    and structure of a web page. This includes changing text, adding or removing elements,
+    modifying attributes, etc.
+    
+    • Event Handling: The DOM allows JavaScript to respond to user interactions, 
+    like clicks or keypresses, by handling events.
+    
+    • Cross-Platform: The DOM is a standard interface that is supported across different web browsers, 
+    making it a fundamental part of web development.
+
+10) What is Hoisting in JavaScript ?
+     Hoisting is a JavaScript behavior where variable and function declerations are 
+     moved to their top of theri containing scope uring the compilation phase, allowing them to use 
+     before they are declared.
