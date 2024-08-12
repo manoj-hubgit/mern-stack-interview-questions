@@ -86,3 +86,40 @@
      Hoisting is a JavaScript behavior where variable and function declerations are 
      moved to their top of theri containing scope uring the compilation phase, allowing them to use 
      before they are declared.
+
+11) Promise in JavaScript 
+     A Promise in JavaScript is an object that represents the eventual completion 
+     (or failure) of an asynchronous operation and its resulting value. 
+     Promises provide a way to handle asynchronous code in a more readable and maintainable manner, 
+     avoiding the so-called "callback hell" that can occur when chaining multiple asynchronous 
+     operations.
+
+    Key Points of a Promise:
+     States:
+        Pending: The initial state, neither fulfilled nor rejected.
+        Fulfilled: The operation completed successfully.
+        Rejected: The operation failed.
+
+     Handling:
+        then(): Used to handle the result of a fulfilled promise.
+        catch(): Used to handle errors or rejected promises.
+
+12) What is async/await
+     async and await are keywords in JavaScript that simplify working with Promises, 
+    making asynchronous code easier to write and read. 
+     They allow you to write asynchronous code in a way that looks synchronous, 
+    improving readability and reducing complexity.
+
+    async Keyword:
+    • The async keyword is used to define an asynchronous function. 
+    When a function is declared as async, it automatically returns a Promise, 
+    even if it doesn’t explicitly return one.
+    • Inside an async function, you can use the await keyword to pause the execution of the function 
+    until a Promise is resolved or rejected.
+    
+    await Keyword:
+    • The await keyword can only be used inside an async function.
+    • It pauses the execution of the function until the Promise is resolved or rejected, 
+    and returns the resolved value. If the Promise is rejected, await throws the error.
+
+13) (MRF) map filter reduce in JavaScript
