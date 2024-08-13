@@ -123,3 +123,106 @@
     and returns the resolved value. If the Promise is rejected, await throws the error.
 
 13) (MRF) map filter reduce in JavaScript
+     Map, Reduce, Filter (MRF): This could refer to three commonly used array methods 
+     in JavaScript—map, reduce, and filter. 
+     These methods are often used for processing and transforming data within arrays.
+
+    • map(): Creates a new array by applying a function to each element of the original array.
+            const numbers = [1, 2, 3, 4];
+            const doubled = numbers.map(x => x * 2); // [2, 4, 6, 8]
+
+    • filter(): Creates a new array with all elements that pass the test implemented 
+    by the provided function.
+            const numbers = [1, 2, 3, 4];
+            const evens = numbers.filter(x => x % 2 === 0); // [2, 4]
+
+    • reduce(): Executes a reducer function on each element of the array, 
+    resulting in a single output value.
+            const numbers = [1, 2, 3, 4];
+            const sum = numbers.reduce((acc, x) => acc + x, 0); // 10
+
+14) What are the template litrals in JavaScript?
+     Template litrals, denoted by backticks (`) are a way to create strings in JavaScript 
+     that support interpolation of variables and multi line strings.
+
+15) What is the callback function in JavaScript?
+     A callback function in JavaScript is a function that is passed as an argument to another 
+    function and is executed after some kind of event or operation. 
+    Callbacks are used extensively in JavaScript to handle asynchronous operations such as 
+    fetching data from a server, handling user interactions, 
+    and executing code after a set period of time.
+
+    Here are some key points about callback functions:
+
+    1. Definition: 
+        A callback is a function that is passed into another function as an argument, 
+       which is then invoked inside the outer function to complete some kind of routine or action.
+
+    2. Asynchronous Programming: 
+        Callbacks are essential in JavaScript for managing asynchronous operations 
+       like network requests, timers, or I/O operations. 
+        Instead of waiting for an operation to complete, JavaScript can continue 
+       executing the next code and "call back" the function once the operation is finished.
+
+    3. Callback Hell: 
+        Excessive use of nested callbacks can lead to "callback hell" or "pyramid of doom," 
+       making code hard to read and maintain. 
+        This can be mitigated by using modern features like Promises and async/await.
+
+16) try catch in JavaScript
+     The try...catch statement in JavaScript is used to handle exceptions, 
+    allowing your program to manage errors gracefully without crashing.
+     This construct enables you to write code that might throw an error and 
+    then catch and handle the error if it occurs.
+
+    • try: Contains the code that might throw an exception. If no exceptions are thrown, 
+    the code within the catch block is ignored.
+
+    • catch: Contains the code to handle exceptions that are thrown in the try block. 
+    The catch block is executed only if an error is thrown. 
+    It receives the error object as an argument, which can be used to get information about the error.
+
+17) Fetch in JavaScript
+     The fetch API in JavaScript is a modern interface for making network requests and 
+    handling responses. 
+     It provides a simpler and more flexible approach to asynchronous requests compared to the 
+    older XMLHttpRequest (XHR) API. fetch returns a promise, 
+    allowing you to handle requests and responses with .then() and .catch().
+
+18) What is JSON.stringify()
+     This method converts a JavaScript object or value to a JSON string. 
+    It is useful when you want to send data to a web server or store it in a format 
+    that can be easily retrieved and parsed later.
+
+19) What is JSON.parse()
+     This method parses a JSON string and converts it to a JavaScript object. 
+     It is commonly used to convert data received from a web server in JSON format 
+    to a JavaScript object.
+
+20) Math.floor()
+     Functionality: Rounds a number down to the nearest integer.
+     Usage: Useful when you need to ensure the result is not greater than the original number.
+        Examples
+        Math.floor(4.7);  // Output: 4
+        Math.floor(4.3);  // Output: 4
+        Math.floor(-4.7); // Output: -5
+        Math.floor(-4.3); // Output: -5
+
+21) Math.round()
+     Functionality: Rounds a number to the nearest integer. 
+     If the fractional part of the number is 0.5 or greater, it rounds up; otherwise, it rounds down.
+     Usage: Commonly used when the closest integer is needed.
+        Examples
+        Math.round(4.5);  // Output: 5
+        Math.round(4.4);  // Output: 4
+        Math.round(-4.5); // Output: -4
+        Math.round(-4.6); // Output: -5
+
+22) Math.ceil()
+     Functionality: Rounds a number up to the nearest integer.
+     Usage: Useful when you need to ensure the result is not less than the original number.
+     Examples
+     Math.ceil(4.3);  // Output: 5
+     Math.ceil(4.7);  // Output: 5
+     Math.ceil(-4.3); // Output: -4
+     Math.ceil(-4.7); // Output: -4
