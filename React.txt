@@ -203,6 +203,20 @@ React?
      if one of the dependencies has changed. 
      It helps optimize performance by avoiding unnecessary re-rendering of components.
 
+23) What is conditional rendering in React?
+     Conditional rendering in React is a method of dynamically displaying elements or components 
+     based on certain conditions. 
+     It allows you to control what gets displayed in the UI based on the 
+     state or props of the component.
+
+24) How do you perform conditional rendering using the ternary operator in React?
+     In React, you can use the ternary operator to conditionally render elements 
+     by embedding it directly in the JSX. 
+     (The syntax follows the form condition ? expressionIfTrue : expressionIfFalse.)
+     Depending on the condition's truthiness, one of the expressions is rendered.
+     
+
+
 
 
 
