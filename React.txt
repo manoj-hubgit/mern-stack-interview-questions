@@ -1,0 +1,210 @@
+1) What is React.js ?
+    React.js is an open-source JavaScript library used for building user interfaces. It allows 
+   developers to create reusable UI components and efficently update and render them as 
+   the application state change 
+
+2) what are the key features of React.js ?
+   • Virtual DOM: React uses a virtual representation of the DOM to
+    efficiently update and render components.
+   • Component-based architecture: React follows a modular approach, 
+   where UIs are built using reusable components.
+   • Unidirectional data flow: React follows a one-way data binding,making it 
+   easier to track and debug data changes.
+   • JSX: React uses JSX, a syntax extension that allows developers to
+   write HTML-like code within JavaScript.
+
+3) What is JSX ?
+    JSX is a syntax extension for JavaScript used in React.js. 
+    It allows developers to write HTML-like code directly within JavaScript, 
+    making it easier to create and manipulate React elements.
+
+4) Explain the difference between functional components and class components in React.
+    In React, functional components and class components are two ways to create components, 
+    which are the building blocks of a React application. 
+    Here are the main differences between them:
+    
+    Functional Components
+        1. Definition: Functional components are plain JavaScript functions. 
+        They receive props as an argument and return JSX, which describes what the UI should look like.
+
+        2. State and Lifecycle: Originally, functional components were stateless 
+        and didn’t have lifecycle methods. 
+        However, with the introduction of React Hooks in version 16.8, functional components 
+        can now use state and lifecycle features.
+
+        3. Simplicity: They are generally easier to write, understand, and test. 
+        Functional components are often more concise and require less boilerplate code 
+        compared to class components.
+
+        4. Performance: Functional components can potentially offer 
+        better performance due to the lack of overhead from class-based features, 
+        although in practice, the performance difference is usually negligible.
+
+        5. Hooks: React Hooks, like useState and useEffect, allow functional components to 
+        manage state and side effects. Hooks enable you to use other features like context, reducers, 
+        and refs.
+
+    Class Components
+        1. Definition: Class components are defined using ES6 classes. 
+        They extend from React.Component and must contain a render method that returns JSX.
+
+        2. State and Lifecycle: Class components have a state object and lifecycle methods 
+        (like componentDidMount, shouldComponentUpdate, etc.) built-in, allowing for more 
+        complex state management and lifecycle handling.
+
+        3. Complexity: Class components tend to be more verbose and require more boilerplate, 
+        such as binding methods to this if using instance methods.
+
+        4. Performance: Class components might have a slight performance disadvantage compared 
+        to functional components due to their structure and the overhead of class features.
+
+        5. Context: They have traditionally been used for more complex components that required access 
+        to lifecycle methods, state, and context, though Hooks have largely closed this gap.
+
+    Summary
+        Functional Components: Simpler, more concise, and modern approach with Hooks for 
+        state and lifecycle management.
+        Class Components: More traditional, verbose, and feature-rich for 
+        complex state and lifecycle management without Hooks.
+        With the advancements in React Hooks, functional components have become the preferred choice for
+        most developers, as they offer more flexibility and are easier to work with for 
+        both simple and complex components.
+
+5) What is the significance of the "render" method in React?
+    The "render" method is a required method in every React component. 
+    It returns a description of what the component should render. 
+    The render method is responsible for rendering the component's JSX or other React components.
+
+6) What is React component ?
+    A React component is a reusable and self-contained module that represents a part of the 
+    user interface. 
+    It can be a function component or a class component. 
+    Components encapsulate logic and UI, making it easier to develop and maintain complex applications.
+
+7) What is State in React?
+    In React, state refers to a built-in object that stores dynamic data about the component. 
+    This data can change over time, usually as a result of user actions, network responses, 
+    or other events. When the state of a component changes, 
+    React re-renders the component to update the user interface with the new data.
+
+    Key characteristics of state in React:
+
+    • Mutable: State can be changed or updated, typically using the setState method in 
+    class components or the useState Hook in functional components.
+    • Local: State is managed within the component where it is defined. 
+    Each component can have its own state independent of other components.
+    • Triggering Re-renders: Changing the state of a component causes React to re-render that component,
+    updating the UI to reflect the current state.
+
+8) Difference Between Props and State
+    Props and state are both plain JavaScript objects that hold information that influences 
+    the output of render, but there are important differences:
+
+    Props
+    • Immutable: Props are read-only and cannot be modified by the component that receives them. 
+    They are passed down from a parent component to a child component.
+    • Data Flow: Props allow data to flow from parent to child components, 
+    enabling parent components to pass data and functions down the component tree.
+    • Usage: Props are mainly used to pass data and event handlers to child components. 
+    They make components reusable by allowing different configurations.
+
+    State
+    • Mutable: State is managed within the component and can be updated over time based on 
+    user interactions, server responses, etc.
+    • Data Flow: State is local to the component and cannot be directly accessed or modified 
+    by child components unless passed down as props.
+    • Usage: State is used to store dynamic data that needs to change and update the 
+    component’s rendering based on user interactions or other events.
+
+    Summary
+    • Props are immutable and used for passing data from parent to child components, 
+    whereas state is mutable and used for managing dynamic data within a component.
+    • Props enable data flow across components, while state is confined to the 
+    component it belongs to and affects its rendering based on the current data stored in it.
+
+9) What is the significance of keys in React lists?
+    Keys are used to give a unique identity to each element in a list rendered by React. 
+    They help React identify which items have changed, been added, or been removed. 
+    Keys improve the efficiency of list rendering and help maintain component state correctly.
+
+10) Explain the concept of the virtual DOM in React.
+     The virtual DOM is a lightweight copy of the actual DOM maintained by React. 
+     It is a representation of the UI components and their structure. 
+     When there are changes in the application state, React compares the 
+     virtual DOM with the real DOM and efficiently updates only the necessary parts, 
+     resulting in better performance.
+
+11) What are React hooks?
+React hooks are functions that allow functional components to use state 
+and other React features without writing a class. 
+Hooks, such as useState and useEffect, provide a simpler way to manage component state and lifecycle.
+
+12) What is the purpose of the useEffect hook?
+The useEffect hook is used to perform side effects in a React component. 
+It allows you to perform actions like data fetching, subscriptions, or 
+manually changing the DOM after the component has rendered.
+
+13) What is the role of the useState hook?
+The useState hook is used to add state to functional components. It returns an array with 
+two elements: the current state value and a function to update that value. 
+It enables functional components to have state similar to class components.
+
+14) Explain the concept of prop drilling in React.
+     Prop drilling refers to the process of passing props through multiple layers of components 
+     in order to reach a deeply nested component that needs access to the data. 
+     It can make the code more complex and lead to less maintainable code. 
+     Context API or Redux can be used to avoid prop drilling.
+
+15) What is the Context API in React?
+     The Context API is a built-in feature of React that provides a way to share data 
+     between components without explicitly passing it through props. 
+     It allows you to create a global state accessible to any component within a designated context.
+
+16) What is the significance of React Router?
+     React Router is a popular library used for implementing routing in React applications. 
+     It allows developers to handle navigation and rendering of different components based on the URL. 
+     React Router provides a declarative way to define routes and nested routes in the application.
+
+17) What is Redux?
+     Redux is a predictable state container for JavaScript applications. 
+     It provides a centralized store to manage the state of an application and 
+     follows a unidirectional data flow. 
+     Redux is commonly used with React to manage the application's global state.
+
+18) What is Redux?
+     Redux is a predictable state container for JavaScript applications. 
+     It provides a centralized store to manage the state of an application and 
+     follows a unidirectional data flow. 
+     Redux is commonly used with React to manage the application's global state.
+
+19) What is the purpose of the "useEffect" hook in React?
+     The useEffect hook is used to perform side effects in a functional component. 
+     It is similar to componentDidMount, componentDidUpdate, and componentWillUnmount combined. 
+     It allows you to perform actions like data fetching, subscriptions, or
+     manually changing the DOM after the component has rendered.
+
+20) What is the difference between useState and useReducer hooks in
+React?
+    useState is a hook used to manage state in functional components, providing a way to 
+    add local state to a component. 
+    useReducer, on the other hand, is a hook that provides a 
+    more powerful state management solution for complex state logic. 
+    It is based on the concept of a reducer function and actions.
+
+21) What is the purpose of the "useContext" hook in React?
+     The useContext hook is used to consume values from a context in functional components. 
+     It allows you to access the current context value directly without wrapping 
+     the component in a context consumer. 
+     It simplifies the process of accessing shared data across components.
+
+22) What is the purpose of the "useCallback" hook in React?
+     The useCallback hook is used to memoize functions in React. 
+     It returns a memoized version of the callback function that only changes 
+     if one of the dependencies has changed. 
+     It helps optimize performance by avoiding unnecessary re-rendering of components.
+
+
+
+
+
+   
