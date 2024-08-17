@@ -171,19 +171,13 @@ It enables functional components to have state similar to class components.
      follows a unidirectional data flow. 
      Redux is commonly used with React to manage the application's global state.
 
-18) What is Redux?
-     Redux is a predictable state container for JavaScript applications. 
-     It provides a centralized store to manage the state of an application and 
-     follows a unidirectional data flow. 
-     Redux is commonly used with React to manage the application's global state.
-
-19) What is the purpose of the "useEffect" hook in React?
+18) What is the purpose of the "useEffect" hook in React?
      The useEffect hook is used to perform side effects in a functional component. 
      It is similar to componentDidMount, componentDidUpdate, and componentWillUnmount combined. 
      It allows you to perform actions like data fetching, subscriptions, or
      manually changing the DOM after the component has rendered.
 
-20) What is the difference between useState and useReducer hooks in
+19) What is the difference between useState and useReducer hooks in
 React?
     useState is a hook used to manage state in functional components, providing a way to 
     add local state to a component. 
@@ -191,25 +185,25 @@ React?
     more powerful state management solution for complex state logic. 
     It is based on the concept of a reducer function and actions.
 
-21) What is the purpose of the "useContext" hook in React?
+20) What is the purpose of the "useContext" hook in React?
      The useContext hook is used to consume values from a context in functional components. 
      It allows you to access the current context value directly without wrapping 
      the component in a context consumer. 
      It simplifies the process of accessing shared data across components.
 
-22) What is the purpose of the "useCallback" hook in React?
+21) What is the purpose of the "useCallback" hook in React?
      The useCallback hook is used to memoize functions in React. 
      It returns a memoized version of the callback function that only changes 
      if one of the dependencies has changed. 
      It helps optimize performance by avoiding unnecessary re-rendering of components.
 
-23) What is conditional rendering in React?
+22) What is conditional rendering in React?
      Conditional rendering in React is a method of dynamically displaying elements or components 
      based on certain conditions. 
      It allows you to control what gets displayed in the UI based on the 
      state or props of the component.
 
-24) How do you perform conditional rendering using the ternary operator in React?
+23) How do you perform conditional rendering using the ternary operator in React?
      In React, you can use the ternary operator to conditionally render elements 
      by embedding it directly in the JSX. 
      (The syntax follows the form condition ? expressionIfTrue : expressionIfFalse.)

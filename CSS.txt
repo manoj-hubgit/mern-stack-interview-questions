@@ -121,7 +121,9 @@
      It is particularly useful for creating responsive designs.
 
     Key Points:
-    • Flex Container: The parent element, where Flexbox is applied by setting display: flex or display: inline-flex. It controls the layout of its child elements, known as flex items.
+    • Flex Container: The parent element, where Flexbox is applied by setting 
+    display: flex or display: inline-flex. 
+    It controls the layout of its child elements, known as flex items.
 
     Main Axis vs. Cross Axis:
 
