@@ -1,6 +1,7 @@
                                             HTML
 1) What is HTML?
     HTML stands for Hyper Text Markup Language. 
+    It defines the structure and content of the webpage.
     It is the standard language used to create and design web pages. 
     It provides the structure for web content, which can include text, images, links, and other multimedia.
 

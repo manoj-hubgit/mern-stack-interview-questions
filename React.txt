@@ -85,7 +85,7 @@
     In React, state refers to a built-in object that stores dynamic data about the component. 
     This data can change over time, usually as a result of user actions, network responses, 
     or other events. When the state of a component changes, 
-    React re-renders the component to update the user interface with the new data.
+    React re-renders the component to update the user interface with the new data.  
 
     Key characteristics of state in React:
 
@@ -208,11 +208,3 @@ React?
      by embedding it directly in the JSX. 
      (The syntax follows the form condition ? expressionIfTrue : expressionIfFalse.)
      Depending on the condition's truthiness, one of the expressions is rendered.
-     
-
-
-
-
-
-
-   

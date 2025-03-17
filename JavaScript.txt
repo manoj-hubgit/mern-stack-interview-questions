@@ -18,7 +18,7 @@
     • const: Block-scoped and cannot be updated or re-declared. 
     The value assigned to a const variable is immutable,
     but the object it refers to can still be modified.
-
+  
 4) What is hoisting in JavaScript?
     Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope 
     (function or global) before code execution. 
@@ -84,7 +84,7 @@
 
 10) What is Hoisting in JavaScript ?
      Hoisting is a JavaScript behavior where variable and function declerations are 
-     moved to their top of theri containing scope uring the compilation phase, allowing them to use 
+     moved to their top of their containing scope uring the compilation phase, allowing them to use 
      before they are declared.
 
 11) Promise in JavaScript 
@@ -226,3 +226,35 @@
      Math.ceil(4.7);  // Output: 5
      Math.ceil(-4.3); // Output: -4
      Math.ceil(-4.7); // Output: -4
+
+
+23) Primitive Data Types and Non-Primitive Data Types
+    
+    Primitive Data Types :
+    • Number, String, Boolean, undefined, null are Primitive data type.
+    • Primitive data type can have only single value.
+    • Primitive data type are immutable and their values cannot be changed.
+    • Primitive data type are simple data type.
+
+    Non-Primitive Data Types :
+    • Objects, arrays, function, Regexp are non-Primitive-data type.
+    • Non-Primitive data type can have multiple values.
+    • Non-Primitive data type are mutable and their values can be changed.
+    • Non-Primitive data type are complex data type.
+
+24) Callback Functions in JavaScript ?
+
+    A callback function is a function passed as an argument to another function and is executed later, 
+    usually after an asynchronous operation or a specific event.
+
+    • They allow functions to be executed after another function has completed.
+    • They help handle asynchronous operations like API calls, file reading, and event handling.
+    • They improve code reusability and maintainability.
+
+25) Why Use Higher-Order Functions?
+
+    A higher-order function is a function that does at least one of the following:
+
+    Takes another function as an argument (callback function).
+    Returns a function as its result.
+    Higher-order functions make JavaScript more flexible and enable functional programming techniques.
